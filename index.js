@@ -28,7 +28,7 @@ app.post("/send-email", async (req, res) => {
 
     const mailOptions = {
       from: process.env.EMAIL_USER,
-      to: "microsoft7779@gmail.com",
+      to: "info@duyelidepe.com",
       subject: "New Contact Form Submission",
       text: `
         Full Name: ${fullName}
