@@ -4,7 +4,7 @@ const nodemailer = require("nodemailer");
 const bodyParser = require("body-parser");
 
 const app = express();
-const port = 7727;
+const port = 7797;
 
 app.use(cors());
 
